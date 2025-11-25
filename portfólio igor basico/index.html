@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1>Igor <span>Pereira</span></h1>
+        <nav>
+            <ul aria-label="Navegação primária" class="navegacao-primaria">
+                <li><a href="#portfolio">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+
+    </header>
+    <section aria-label="seção curriculo dowload Leonardo" class="section-div">
+        <div>
+            <h2>Olá! Meu nome é Igor</h2>
+            <h2 class="digitando">Desenvolvedor WEB em Formação</h2>
+            <p>Sou desenvolvedor web com experiência em PHP, HTML, CSS, JavaScript e MySQL.
+                <br>Estou buscando uma oportunidade como Desenvolvedor Júnior para crescer na área..</p>
+            <a href="#">Baixar CV</a>
+        </div>
+        <img src="imgs/main.jpg" alt="ilustrativa imagem de uma pessoa">
+    </section>
+    <main>
+        <article aria-label="seção sobre mim" class="sobre">
+            <div class="sobre_titulo">
+                <h1>Sobre Mim</h1>
+            
+                <div aria-label="Seção apenas de ilustrações de botões">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <img src="imgs/main.jpg" alt="imagem de uma pessoa ilustrativa">
+            <div class="sobre_conteudo">
+                <div class="sobre_texto">
+                    <h1>Me chamo Igor e tenho 23 anos</h1>
+                    <p>Estudante de Engenharia da Computação na UFSC, focado em desenvolvimento web e na construção de uma carreira sólida na área de tecnologia.
+                        Atualmente estou aprimorando meus conhecimentos em PHP, HTML, CSS, JavaScript e MySQL por meio de projetos acadêmicos e cursos em andamento na B7Web e DevClub.
+                        Possuo inglês avançado e habilidades em programação que me permitem aprender rapidamente e contribuir com projetos reais.
+                        Sou diciplinado, organizado e motivado, buscando uma oportunidade profissional para aplicar meus conhecimentos, crescer tecnicamente e somar à equipe da empresa.
+                        <br>
+                        <br>
+                    </p>
+                </div>
+                <div class="sobre_info">
+                    <p><i class="fa-solid fa-location-dot"></i>Endereço: Araranguá,Brasil</p>
+                    <p><i class="fa-sharp fa-solid fa-globe"></i>Falo as seguintes linguas: inglês e português</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>Telefone: +55 (48) 99907-5505</p>
+                    <p><i class="fa-solid fa-envelope"></i>Email: igorpereiradc19@gmail.com</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <section class="my_resume">
+        <div class="sobre_titulo">
+            <h1>Resumo sobre</h1>
+            <p>Experiencias e ensino de educação</p>
+            <div aria-label="Seção apenas de ilustrações de botões">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="resume_gerenico">
+            <h2 class="experience"><i class="fa-solid fa-handshake"></i>Experiencias</h2>
+            <div class="experience_content">
+                <div>
+                    <span>2023-2024</span>
+                    <h3>Estágio na Seja Prime como Desenvolvedor WEB</h3>
+                    <p>Desenvolvimento de sites e aplicações web utilizando HTML, CSS, JavaScript, PHP, MySQL, Bootstrap e SaaS. Participação em projetos de front-end e back-end, implementação de funcionalidades e correção de bugs.</p>
+                </div>
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                </ul>
+            </div>
+            <h2 class="education"><i class="fa-solid fa-book"></i>Ensino</h2>
+            <div class="education_content">
+                <div>
+                    <span>2022 - 2025</span>
+                    <h3>Universidade Federal de Santa Catarina</h3>
+                    <p>Atualmente cursando Engenharia de Computação</p>
+                </div>
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-circle"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="sobre_titulo">
+            <h1>Meus Projetos</h1>
+            <p>Estou trabalhando nisso por enquanto:</p>
+            <div aria-label="Seção apenas de ilustrações de botões">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="project_models">
+            <ul class="project_navegacao" aria-label="Navegação entre modelos expecificos de projetos">
+                <li class="all">Tudo</li>
+                <li class="design">Sistema de Login</li>
+                <li class="graphic">Sites</li>
+                <li class="website">APIS</li>
+            </ul>
+        </div>
+        <div class="projects_armazenamento">
+            <ul aria-label="Navegação de projetos e websites">
+                <li id="design"><img src="imgs/ecommerce.jpeg" alt="Site criado para ser um ecommerce geral"></li>
+                <li id="design"><img src="imgs/facebook.jpeg" alt="Clone da tela de login do facebook"></li>
+                <li id="graphic"><img src="imgs/instagram.jpeg" alt="Clone da tela de login do instagram"></li>
+                <li id="graphic"><img src="imgs/iphone.jpeg" alt="Landing page da Apple"></li>
+                <li id="website"><img src="imgs/leagueoflegends.jpeg" alt="Tela de cadastro de League of legends">
+                </li>
+                <li id="website"><img src="imgs/marioword.jpeg" alt="Landing Page do filme Mario Word"></li>
+                <li id="website"><img src="imgs/netflix.jpeg" alt="Clone da Netflix"></li>
+                <li id="website"><img src="imgs/sonic.jpeg" alt="Landing Page do filme Sonic"></li>
+            </ul>
+        </div>
+        <a href="#">Carregar mais</a>
+    </section>
+
+    <footer>
+        <div class="sobre_titulo">
+            <h1>Igor Pereira</h1>
+        </div>
+        <nav aria-label="navegação de links sociais">
+            <ul class="footer_sociais">
+                <li><i class="fa-brands fa-facebook-f"><a href="#"></a></i></li>
+                <li><i class="fa-brands fa-twitter"><a href="#"></a></i><a href="#"></a></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+                <li><i class="fa-brands fa-instagram"><a href="#"></a></i></li>
+                <li><i class="fa-brands fa-github-alt"><a href="#"></a></i></li>
+            </ul>
+        </nav>
+        <p class="footer_comercial">Todos os direitos reservados Igor Pereira &copy; - 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
